@@ -1,0 +1,16 @@
+{
+    "name": "OrangeSensei.MapGeneration",
+    "rootNamespace": "OrangeSensei.MapGeneration",
+    "references": [
+        "GUID:ba74f33a38ff8f74ca9c8f73ed9905f3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

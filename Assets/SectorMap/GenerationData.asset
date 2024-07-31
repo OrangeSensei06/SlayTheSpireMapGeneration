@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f425c01b030f81d489d143e9d147d3e7, type: 3}
+  m_Name: GenerationData
+  m_EditorClassIdentifier: 
+  MapFloors: 8
+  NodesPerFloor: 8
+  CellSize: 25
+  MinStartPoints: 3
+  MaxStartPoints: 4
+  StartingPaths: 4
+  TotalPaths: 5
+  NodeWeights:
+  - type: 1
+    weight: 45
+  - type: 5
+    weight: 22
+  - type: 2
+    weight: 16
+  - type: 4
+    weight: 12
+  - type: 6
+    weight: 5
+  - type: 3
+    weight: 0
+  CustomWeightedFloors:
+  - Floor: 1
+    TargetType: 1
+    CustomWeight: 1
+  - Floor: 6
+    TargetType: 3
+    CustomWeight: 1
+  - Floor: 13
+    TargetType: 4
+    CustomWeight: 1
+  NodeRestrictions:
+  - TargetType: 2
+    MinFloor: 7
+    DontAppearOnFloor: -1
+    AllowConsecutive: 0
+  - TargetType: 4
+    MinFloor: 0
+    DontAppearOnFloor: 14
+    AllowConsecutive: 0
+  - TargetType: 6
+    MinFloor: 0
+    DontAppearOnFloor: -1
+    AllowConsecutive: 0
+  NormalEncounterChances:
+  - EncounterData: {fileID: 11400000, guid: 58a427eb9a9140849a82374f5eb31ae8, type: 2}
+    Weight: 45
+  - EncounterData: {fileID: 11400000, guid: ef7481cf539d8ba4f9f7489f48400523, type: 2}
+    Weight: 30
+  - EncounterData: {fileID: 11400000, guid: 818bebd1b5038854c80f7e65c136d214, type: 2}
+    Weight: 25
+  EliteEncounterChances:
+  - EncounterData: {fileID: 11400000, guid: 0b5c65914e44a5d4d8bbe1267dd5600b, type: 2}
+    Weight: 50
+  - EncounterData: {fileID: 11400000, guid: 53bd2c77189434144a8d1041b7dea941, type: 2}
+    Weight: 30
+  - EncounterData: {fileID: 11400000, guid: cc41e751797a50a4f892d1d7f629474c, type: 2}
+    Weight: 20
+  ChestEncounterChances: []
+  EventEncounterChances: []

@@ -1,0 +1,16 @@
+Custom Restrictions:
+    - Floor Value (The floor you want to have more control over!)
+    - A target item type
+    - A custom value to give priority to this type (set it to 100) to make sure it appears on that floor 100%
+
+Major Restrictions Rules:
+    - Cant appear Below (Floor valye)
+    - Cant appear On A FLOOR 
+    - Cant appear consecutive
+    
+Universal rules:
+    - A Room that that has 2 or more Paths going out must have all destinations be unique. 2 destinations originating form the same Room cannot share the same Location.
+
+
+Encounter Data:
+    
