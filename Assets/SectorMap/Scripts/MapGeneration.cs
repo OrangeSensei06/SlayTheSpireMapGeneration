@@ -61,9 +61,11 @@ namespace OrangeSensei.MapGeneration
                 Destroy(item.gameObject);
             }
 
-            foreach (Transform child in GameObject.Find("Paths").transform)
-            {
-                Destroy(child.gameObject);
+            if(GameObject.Find("Paths") != null){
+                foreach (Transform child in GameObject.Find("Paths").transform)
+                {
+                    Destroy(child.gameObject);
+                }
             }
 
             allNodes.Clear();
