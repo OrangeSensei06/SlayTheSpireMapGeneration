@@ -121,7 +121,7 @@ namespace OrangeSensei.MapGeneration
                     return false;
                 }
 
-                if (restriction.DontAppearOnFloor != -1 && floorValue != restriction.DontAppearOnFloor)
+                if (restriction.DontAppearOnFloor != -1 && floorValue == restriction.DontAppearOnFloor)
                 {
                     return false;
                 }
